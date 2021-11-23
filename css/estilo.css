@@ -1,0 +1,155 @@
+/* *{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 150px ;
+}
+header .head-cinza{
+    background-color: rgb(223, 235, 235);
+    flex-direction: row;
+}
+#menu{
+    display: inline-block;
+    margin-left: 230px;
+}
+header .titulo{
+    size: 0px;
+    color: rgb(241, 133, 9);
+    text-align: center;
+}
+header div.menu-nav{
+    flex-direction: row;
+}
+header div.menu-nav li.nav-1{
+    margin-left: 20px;
+}
+header div.menu-nav li.nav-1{
+    margin-left: 10px;
+    padding: -1px 40px;
+}
+header div.menu-nav li.nav-2{
+    margin-left: 100px;
+    padding: -1px 40px;
+}
+header div.menu-nav li.nav-3{
+    margin-left: 210px;
+}
+header div.menu-nav li.nav-4{
+    margin-left: 310px;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* PARTE DO CSS DO MENU DE NAVEGAÇÃO */
+
+#menu-h ul{
+    list-style: none;
+    padding: 0;
+    background-color:rgb(233, 219, 219);
+    font-family: 'Baloo Chettan 2', cursive;
+    text-align: center;
+}
+#menu-h ul li{
+    display: inline;
+}
+
+#menu-h ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    display:inline-block;
+}
+#menu-h ul li a:hover{
+    color: rgb(194, 189, 189);
+}
+#logotipo{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+#logotipo p{
+   color: rgb(102, 77, 77); 
+   margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* INICIO DO CSS DA PARTE DOS PROJETOS */
+#project{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: 75px;
+}
+#project ul{
+    margin: 40px 7px;
+    list-style: none;
+    
+}
+#project p{
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 20px;
+}
+
+#maisProjetos ul{
+    list-style: none;
+    padding: 0;
+    background-color:rgb(233, 219, 219);
+    font-family: 'Baloo Chettan 2', cursive;
+    text-align: center;
+}
+#maisProjetos ul li{
+    display: inline;
+}
+
+#maisProjetos ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 60px;
+    display:inline-block;
+    background-color: rgb(231, 154, 154);
+}
+#maisProjetos ul li a:hover{
+    color: rgb(63, 60, 60);
+}
+.sinopse ul li{
+    list-style: none;
+    padding: 30px;
+    padding-bottom: 185px;
+    background-color: rgb(248, 244, 244);
+}
+.sinopse ul li img{
+    float: left;
+    background-color: rgb(248, 244, 244);
+    padding: 30px;
+}
+.rodape{
+    background-color: rgba(81, 81, 185, 0.521)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
